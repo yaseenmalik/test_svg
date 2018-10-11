@@ -1,0 +1,57 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #161010 url('Group\ 13.svg') no-repeat;
+  background-position: top-right;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+svg{
+  width: 300px;
+  align-self: center;
+  justify-self: center;
+  margin-left: 300px;
+}
+
+svg:hover #logo{
+  animation-duration: 1.2s;
+  animation-name: animateLogo;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#logo{
+  opacity: 0;
+}
+
+@keyframes animateLogo{
+  from{
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(56px) translateY(-27px);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+	.st0{fill:#374A85;}
+	.st1{fill:#394D8A;}
+	.st2{fill:#F5F5F5;}
+	.st3{fill:#6689F5;}
+	.st4{enable-background:new    ;}
+	.st5{clip-path:url(#SVGID_2_);enable-background:new    ;}
+	.st6{fill:#858585;}
+	.st7{fill:#8A8A8A;}
+	.st8{clip-path:url(#SVGID_4_);enable-background:new    ;}
+	.st9{clip-path:url(#SVGID_6_);enable-background:new    ;}
